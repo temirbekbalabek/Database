@@ -25,5 +25,3 @@ update countries set population=population*1.1 returning country_name,population
 delete from countries_new as c using countries as cn where c.country_id=cn.country_id returning *;
 delete from countries returning *;
 
-
-
